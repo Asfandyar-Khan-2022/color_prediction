@@ -34,11 +34,29 @@ for i in range(len(palette)):
          EC.visibility_of((colors[i]))
     )
     while colors[i].is_displayed() and len(colors[color].text) > 0:
-            color += 1
             print(colors[color].get_attribute("data-hex"))
             print(colors[color].text)
+            color += 1
+
+    color_mixed = driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div/div/section/div[2]/div/div/div[1]/div[3]/ul/li[2]/button')
+    color_mixed.click()
+    color = 0
+
+    color_long_list = driver.find_element(By.CLASS_NAME, "tab-content.js-tab-content.is-active")
+    color_long_list_specific = color_long_list.find_elements(By.CLASS_NAME, "color-card.js-color-card")
+
+    try: 
+        while color_long_list_specific[i].is_displayed() and len(color_long_list_specific[color].text) > 0:
+            print(color_long_list_specific[color].get_attribute("data-hex"))
+            print(color_long_list_specific[color].text)
+            color += 1
+    except:
+         pass
     
     palette = driver.find_elements(By.CSS_SELECTOR, ".a20-color-box")
     colors = driver.find_elements(By.CSS_SELECTOR, "div.color-card.js-color-card")
     color_names = driver.find_element(By.CSS_SELECTOR, "span.color-card-label.body-copy-s")
     color = 0
+
+color_long_list = driver.find_element(By.CLASS_NAME, "tab-content js-tab-content.is-active")
+color_long_list_specific = color_long_list.find_elements(By.CLASS_NAME, "color-card.js-color-card")
