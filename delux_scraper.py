@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+import csv
+from PIL import ImageColor
 
 options = Options()
 options.add_experimental_option("detach", True)
@@ -19,18 +21,15 @@ try:
 except:
     pass
 
+colors_sub_dict = []
+
 palette = driver.find_elements(By.CSS_SELECTOR, ".a20-color-box")
 color = 0
 
-colors_dict = {}
-for i in range(len(palette)):
-    colors_dict[palette[i].get_attribute("data-id")] = {}
 
-print(colors_dict)
 
 for i in range(len(palette)):
     current_color = ""
-    colors_sub_dict = {}
 
     if palette[i].is_displayed:
         print(palette[i].get_attribute("data-id"))
@@ -44,13 +43,14 @@ for i in range(len(palette)):
          EC.visibility_of((colors[i]))
     )
     while colors[i].is_displayed() and len(colors[color].text) > 0:
-            print(colors[color].get_attribute("data-hex"))
-            print(colors[color].text)
-            colors_sub_dict[colors[color].text] = colors[color].get_attribute("data-hex")
-            color += 1
+            hex_color = colors[color].get_attribute("data-hex")
+            print(hex_color)
+            RGB = ImageColor.getcolor(hex_color, "RGB")
 
-    colors_dict[current_color] = colors_sub_dict
-    print(colors_dict)
+            print(colors[color].text)
+            colors_sub_dict.append([current_color, colors[color].text, colors[color].get_attribute("data-hex"), RGB[0], RGB[1], RGB[2]])
+            color += 1
+    print(colors_sub_dict)
 
     color_mixed = driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div/div/section/div[2]/div/div/div[1]/div[3]/ul/li[2]/button')
     color_mixed.click()
@@ -72,3 +72,12 @@ for i in range(len(palette)):
     color_names = driver.find_element(By.CSS_SELECTOR, "span.color-card-label.body-copy-s")
     color = 0
 
+# with open("colors.csv", "w", newline ="") as f:
+#      writer = csv.DictWriter(f, fieldnames=colors_sub_dict.keys())
+#      writer.writeheader()
+#      writer.writerow(colors_sub_dict)
+
+import pandas as pd
+
+df = pd.DataFrame(colors_sub_dict)
+df.to_csv("file2.csv", index=False, header=False)
