@@ -22,9 +22,19 @@ except:
 palette = driver.find_elements(By.CSS_SELECTOR, ".a20-color-box")
 color = 0
 
+colors_dict = {}
 for i in range(len(palette)):
+    colors_dict[palette[i].get_attribute("data-id")] = {}
+
+print(colors_dict)
+
+for i in range(len(palette)):
+    current_color = ""
+    colors_sub_dict = {}
+
     if palette[i].is_displayed:
         print(palette[i].get_attribute("data-id"))
+        current_color = palette[i].get_attribute("data-id")
         palette[i].click()
 
     colors = driver.find_elements(By.CSS_SELECTOR, "div.color-card.js-color-card")
@@ -36,7 +46,11 @@ for i in range(len(palette)):
     while colors[i].is_displayed() and len(colors[color].text) > 0:
             print(colors[color].get_attribute("data-hex"))
             print(colors[color].text)
+            colors_sub_dict[colors[color].text] = colors[color].get_attribute("data-hex")
             color += 1
+
+    colors_dict[current_color] = colors_sub_dict
+    print(colors_dict)
 
     color_mixed = driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div/div/section/div[2]/div/div/div[1]/div[3]/ul/li[2]/button')
     color_mixed.click()
@@ -58,5 +72,3 @@ for i in range(len(palette)):
     color_names = driver.find_element(By.CSS_SELECTOR, "span.color-card-label.body-copy-s")
     color = 0
 
-color_long_list = driver.find_element(By.CLASS_NAME, "tab-content js-tab-content.is-active")
-color_long_list_specific = color_long_list.find_elements(By.CLASS_NAME, "color-card.js-color-card")
