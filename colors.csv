@@ -1,0 +1,276 @@
+,general_color_name,color_name,hex,red,green,blue
+0,white,Moon Shimmer,#F6F7EE,246,247,238
+1,white,Frosted Dawn,#F7F6EE,247,246,238
+2,white,Absolute White,#F7F5EE,247,245,238
+3,white,Cliff Walk,#F3F2EC,243,242,236
+4,white,Morning Light,#F8F2E4,248,242,228
+5,white,Fine Cream,#F6F2E5,246,242,229
+6,white,Jasmine White,#F2EFE5,242,239,229
+7,white,Magic White,#EEEEE7,238,238,231
+8,white,Timeless,#F0EDE4,240,237,228
+9,white,Pure Brilliant White,#EDECE7,237,236,231
+10,white,Cloudy Dreams,#ECEDE7,236,237,231
+11,white,Rock Salt,#E9EAE9,233,234,233
+12,white,Sloe Flower,#E9E9E7,233,233,231
+13,white,Cream Tea,#F6ECD4,246,236,212
+14,white,White Chiffon,#EEE9DE,238,233,222
+15,white,Calm Clouds,#E8E8E5,232,232,229
+16,white,White Mist,#E8E8E4,232,232,228
+17,white,Porcelain Doll,#E8E7E3,232,231,227
+18,white,Vanilla White,#F0E8DA,240,232,218
+19,white,Orchid White,#F4E9D4,244,233,212
+20,white,Milky Pail,#EBE7DE,235,231,222
+21,white,Almond White,#EFE7DA,239,231,218
+22,white,Classic Cream,#F5E8D2,245,232,210
+23,white,Magnolia,#F4E7D4,244,231,212
+24,white,Gardenia,#F1E8D4,241,232,212
+25,white,Bone China,#ECE6D8,236,230,216
+26,white,Delicate Seashell,#EDE3D5,237,227,213
+27,white,Summer Linen,#EAE3D7,234,227,215
+28,white,Natural Calico,#ECE2D2,236,226,210
+29,white,Letters Unread,#E1E2DD,225,226,221
+30,white,Vintage Chandelier,#E6E1D8,230,225,216
+31,white,Natural Wicker,#EDE0D1,237,224,209
+32,white,Barley Twist,#EDE3CD,237,227,205
+33,white,Barley White,#EDE3CD,237,227,205
+34,white,Cotton Cream,#F2E2C6,242,226,198
+35,white,Cornish Cream,#F4E6C0,244,230,192
+36,white,Pearl Grey,#DBDCDA,219,220,218
+37,white,Celtic Cream,#F2DBBA,242,219,186
+38,white,Boutique Cream,#E0DBCB,224,219,203
+39,white,Ivory,#E8D6BB,232,214,187
+40,white,Feather Flock,#CBCDCC,203,205,204
+41,red,Jasmine Shimmer,#F8ECE6,248,236,230
+42,red,Spring Rose,#F3E7EF,243,231,239
+43,red,Pink Skies,#EFE7E0,239,231,224
+44,red,Blossom White,#EEE2DF,238,226,223
+45,red,Sorbet,#F2D7D7,242,215,215
+46,red,Pretty Pink,#E4D2E2,228,210,226
+47,red,Blush Pink,#E6D8D1,230,216,209
+48,red,Sweet Pink,#E8C4DB,232,196,219
+49,red,Ballerina Dance,#E7CBC7,231,203,199
+50,red,Satin Bow,#DFCECB,223,206,203
+51,red,Faded Damson,#D8CFCD,216,207,205
+52,red,Love Note,#D8CCC8,216,204,200
+53,red,Rose Canopy,#D6C0BE,214,192,190
+54,red,Berry Smoothie,#D37998,211,121,152
+55,red,Fuschia Lily,#C1669D,193,102,157
+56,red,Raspberry Diva,#B27782,178,119,130
+57,red,Raspberry Bellini,#BF4F5C,191,79,92
+58,red,Roasted Red,#AB4C4C,171,76,76
+59,red,Redcurrant Glory,#974951,151,73,81
+60,red,Pepper Red,#B33E3F,179,62,63
+61,red,Sumptuous Plum,#983660,152,54,96
+62,red,Volcanic Red,#B5322F,181,50,47
+63,red,Salsa Red,#AB1D2C,171,29,44
+64,red,Monarch,#833532,131,53,50
+65,red,Ruby Starlet,#782E34,120,46,52
+66,orange,Soft Coral,#FBECDE,251,236,222
+67,orange,Soft Peach,#F6D9BE,246,217,190
+68,orange,Apricot Crush,#F9D1B5,249,209,181
+69,orange,Tuscan Terracotta,#D8967B,216,150,123
+70,orange,Copper Blush,#CC907B,204,144,123
+71,orange,Tangerine Twist,#F08948,240,137,72
+72,orange,Coral Flair,#D16965,209,105,101
+73,orange,Orange Fizz,#E2712B,226,113,43
+74,orange,Collective Coral,#CA5B4A,202,91,74
+75,orange,Rocket Fire,#D35338,211,83,56
+76,orange,Moroccan Flame,#E36811,227,104,17
+77,orange,Brick Red,#8B4633,139,70,51
+78,gold,Desert Wind,#F9F1E4,249,241,228
+79,gold,Ivory Lace,#F7EDDA,247,237,218
+80,gold,Honey Beam,#FBEAD6,251,234,214
+81,gold,Coastal Glow,#F8EAD5,248,234,213
+82,gold,Apricot White,#F2E3D2,242,227,210
+83,gold,Buttermilk,#F0DFBC,240,223,188
+84,gold,Sunbaked Terracotta,#E0B595,224,181,149
+85,gold,Muted Gold,#BA9A74,186,154,116
+86,yellow,Lunar Falls,#F9F4DA,249,244,218
+87,yellow,Daffodil White,#F6EBCD,246,235,205
+88,yellow,Lemon Spirit,#F8F3C2,248,243,194
+89,yellow,Soft Vanilla,#F7E9C5,247,233,197
+90,yellow,Pale Citrus,#F8E6B5,248,230,181
+91,yellow,Wild Primrose,#F4E3B8,244,227,184
+92,yellow,Vanilla Sundae,#FBE5AD,251,229,173
+93,yellow,Lemon Tropics,#F9E09C,249,224,156
+94,yellow,Lemon Pie,#FFE087,255,224,135
+95,yellow,County Cream,#E8CDA5,232,205,165
+96,yellow,Sunny Day,#F4D088,244,208,136
+97,yellow,Butter Biscuit,#F0CB90,240,203,144
+98,yellow,Banana Split,#FFCF73,255,207,115
+99,yellow,Golden Cookie,#D1BE8E,209,190,142
+100,yellow,Lemon Punch,#EECD40,238,205,64
+101,yellow,Citrus Zing,#DAB955,218,185,85
+102,yellow,Honey Mustard,#E6AF47,230,175,71
+103,yellow,Healing Spice,#B68D2C,182,141,44
+104,lime,Apple White,#E9EAD9,233,234,217
+105,lime,Vanilla Scoop,#EDECCD,237,236,205
+106,lime,Soft Apple,#E6EACB,230,234,203
+107,lime,Fresh Stem,#DCCE8D,220,206,141
+108,lime,Melon Sorbet,#D0CD98,208,205,152
+109,lime,Lemon Jester,#ECD96A,236,217,106
+110,lime,Kiwi Crush,#BDD176,189,209,118
+111,lime,Luscious Lime,#C7CA56,199,202,86
+112,lime,Calming Meadow,#A49B7A,164,155,122
+113,green,Nordic Spa,#EBF5E4,235,245,228
+114,green,Wellbeing,#DBEDCF,219,237,207
+115,green,Spring Meadow,#D9DCB8,217,220,184
+116,green,Willow Tree,#C9D7C4,201,215,196
+117,green,Antique Map,#D5D0BF,213,208,191
+118,green,Jurassic Stone,#D4CFBC,212,207,188
+119,green,Mossy Stone,#CBC5B1,203,197,177
+120,green,Valley Rock,#C4C3B3,196,195,179
+121,green,Graceful Green,#BCC1BA,188,193,186
+122,green,Crushed Aloe,#C1BEA2,193,190,162
+123,green,Green Ivy,#B7B8A7,183,184,167
+124,green,Putting Green,#AFBC97,175,188,151
+125,green,Overtly Olive,#B1AC96,177,172,150
+126,green,Sophisticated Sage,#B1AC96,177,172,150
+127,green,Bamboo Stem,#A2AE8E,162,174,142
+128,green,Fresh Sage,#8AA38B,138,163,139
+129,green,Green Glade,#929480,146,148,128
+130,green,Pixie Green,#51B074,81,176,116
+131,green,Enchanted Eden,#61894E,97,137,78
+132,green,Emerald Glade,#2F7769,47,119,105
+133,green,Forest Shade,#57624D,87,98,77
+134,green,Olive Grove,#525234,82,82,52
+135,green,Buckingham,#30673F,48,103,63
+136,green,Highland Green,#305244,48,82,68
+137,green,Heathland,#263B37,38,59,55
+138,teal,First Frost,#E3F0ED,227,240,237
+139,teal,Ocean Ripple,#DCF3EE,220,243,238
+140,teal,Pistachio Whip,#DDEDEA,221,237,234
+141,teal,Jade White,#DFEBE6,223,235,230
+142,teal,Lagoon Falls,#CBF0E8,203,240,232
+143,teal,Peppermint Candy,#CEDFDD,206,223,221
+144,teal,Atmosphere,#CDDBE0,205,219,224
+145,teal,Mint Macaroon,#B9D3D1,185,211,209
+146,teal,Marine Splash,#8BD6D3,139,214,211
+147,teal,Blue Reflection,#98B9BB,152,185,187
+148,teal,Teal Façade,#62A3AD,98,163,173
+149,teal,Proud Peacock,#3F8685,63,134,133
+150,teal,Teal Touch,#00939F,0,147,159
+151,teal,Teal Tension,#136777,19,103,119
+152,teal,Teal Ripple,#006065,0,96,101
+153,blue,Blueberry White,#D8E0E9,216,224,233
+154,blue,Mineral Mist,#C3D8E3,195,216,227
+155,blue,Blissful Blue,#BFD1E4,191,209,228
+156,blue,First Dawn,#AFD2E5,175,210,229
+157,blue,Misty Sky,#B7CBD0,183,203,208
+158,blue,Frosted Lake,#B4C6D4,180,198,212
+159,blue,Quintessential Blue,#B4C7D1,180,199,209
+160,blue,Coastal Grey,#B8C7CC,184,199,204
+161,blue,Bright Skies,#B0C4D3,176,196,211
+162,blue,Bluebird Skies,#99BDD0,153,189,208
+163,blue,Blue Babe,#92B8DC,146,184,220
+164,blue,Blue Lagoon,#8DB4D9,141,180,217
+165,blue,River Valley,#9AB4BA,154,180,186
+166,blue,Nordic Sky,#7DB0C2,125,176,194
+167,blue,Sky View,#83A8C1,131,168,193
+168,blue,Vast Lake,#7E9AAC,126,154,172
+169,blue,Sea Blue,#588DC3,88,141,195
+170,blue,Stonewashed Blue,#6794A5,103,148,165
+171,blue,Denim Drift,#7C8D95,124,141,149
+172,blue,Striking Cyan,#10A1CF,16,161,207
+173,blue,Lost Lake,#3A698D,58,105,141
+174,blue,Breton Blue,#425465,66,84,101
+175,blue,Atlantic Blue,#005B8E,0,91,142
+176,blue,Sapphire Salute,#324965,50,73,101
+177,blue,Sapphire Splendour,#3B424C,59,66,76
+178,blue,Oxford Blue (Weathershield),#154367,21,67,103
+179,violet,Cotton Breeze,#DFE5F0,223,229,240
+180,violet,Violet White,#DEDCE6,222,220,230
+181,violet,Scent Bottle,#DED9D5,222,217,213
+182,violet,Gentle Lavender,#CDCCE1,205,204,225
+183,violet,Violet Morning,#D3D0D6,211,208,214
+184,violet,Romantic Reverie,#CDC2C4,205,194,196
+185,violet,Sugared Lilac,#BDBBDA,189,187,218
+186,violet,Lavender Quartz,#B8B9C8,184,185,200
+187,violet,Lilac Fancy,#BCB6BD,188,182,189
+188,violet,Dusted Fondant,#C3B3B8,195,179,184
+189,violet,Violet Storm,#B4B3B9,180,179,185
+190,violet,Pressed Thistle,#898D9B,137,141,155
+191,violet,Amethyst Starling,#898D9B,137,141,155
+192,violet,Heather Climb,#70677F,112,103,127
+193,violet,Purple Pout,#594786,89,71,134
+194,violet,Mulberry Burst,#654657,101,70,87
+195,violet,Royal Berry,#5E354C,94,53,76
+196,violet,Deep Aubergine,#542840,84,40,64
+197,cool neutral,Snail Trail,#DAE0E2,218,224,226
+198,cool neutral,Cornflower White,#DCE1DF,220,225,223
+199,cool neutral,Moon Cloud,#D7DDE1,215,221,225
+200,cool neutral,Frosted Steel,#D6DCE0,214,220,224
+201,cool neutral,Ashen White,#DEDCD7,222,220,215
+202,cool neutral,Polished Pebble,#D8D8D7,216,216,215
+203,cool neutral,Thimble Case,#D8D4CE,216,212,206
+204,cool neutral,Misty Mirror,#C8CED4,200,206,212
+205,cool neutral,Pebble Shore,#D2CFC6,210,207,198
+206,cool neutral,Muted Stone,#D5CCC4,213,204,196
+207,cool neutral,Engraved Locket,#CCCCCB,204,204,203
+208,cool neutral,Pale Slate,#CCCCCB,204,204,203
+209,cool neutral,Surrendered Skies,#CBCCCB,203,204,203
+210,cool neutral,Goose Down,#C9CBC9,201,203,201
+211,cool neutral,Tranquil Dawn,#BDC3B9,189,195,185
+212,cool neutral,Chic Shadow,#BABAB9,186,186,185
+213,cool neutral,Steel Parade,#ADB9BF,173,185,191
+214,cool neutral,Smooth Flint,#B2B8B9,178,184,185
+215,cool neutral,Misty Mountain,#B7B3AC,183,179,172
+216,cool neutral,Dove Slate,#ACB0AE,172,176,174
+217,cool neutral,Warm Pewter,#A4A8A8,164,168,168
+218,cool neutral,Wishing Well,#9D9E9D,157,158,157
+219,cool neutral,Natural Slate,#909396,144,147,150
+220,cool neutral,Storm Clearing,#8F9391,143,147,145
+221,cool neutral,Deep Fossil,#8F908F,143,144,143
+222,cool neutral,Urban Obsession,#808080,128,128,128
+223,cool neutral,Warm Graphite,#7F7B73,127,123,115
+224,cool neutral,Monument Grey,#737372,115,115,114
+225,cool neutral,Gallant Grey,#686D70,104,109,112
+226,cool neutral,Bowler Hat,#555656,85,86,86
+227,cool neutral,Basically Black,#494D52,73,77,82
+228,cool neutral,Black,#2D2D2D,45,45,45
+229,cool neutral,Rich Black,#2C2B2B,44,43,43
+230,warm neutral,Almost Oyster,#E7DCD5,231,220,213
+231,warm neutral,Nutmeg White,#E3DCD4,227,220,212
+232,warm neutral,Elderflower Tea,#E8DCC6,232,220,198
+233,warm neutral,Fossil Hunting,#DEDACB,222,218,203
+234,warm neutral,Natural Hessian,#E1D5C6,225,213,198
+235,warm neutral,Hay Bale,#E2D5C0,226,213,192
+236,warm neutral,Evening Barley,#DED0C1,222,208,193
+237,warm neutral,Egyptian Cotton,#D8D1C5,216,209,197
+238,warm neutral,Sandy Steps,#DCD1C0,220,209,192
+239,warm neutral,Sesame Seed,#DCD1C0,220,209,192
+240,warm neutral,Gentle Fawn,#D9CEC4,217,206,196
+241,warm neutral,Mellow Mocha,#D7CCC7,215,204,199
+242,warm neutral,Subtle Seashell,#DBCFC0,219,207,192
+243,warm neutral,Pale Taupe,#D2CDC6,210,205,198
+244,warm neutral,Artist's Brush,#D8CBC0,216,203,192
+245,warm neutral,Morning Oats,#CECCC3,206,204,195
+246,warm neutral,Trench Coat,#DFCCB1,223,204,177
+247,warm neutral,Caramel Latte,#D7C6B4,215,198,180
+248,warm neutral,Sandstone,#D8C7B2,216,199,178
+249,warm neutral,Malt Chocolate,#D1C2B9,209,194,185
+250,warm neutral,Crispy Crumble,#CEC5B6,206,197,182
+251,warm neutral,Dusted Cappuccino,#CBC1B7,203,193,183
+252,warm neutral,Archive Papers,#CAC0B8,202,192,184
+253,warm neutral,Perfectly Taupe,#C5BEBA,197,190,186
+254,warm neutral,Rope Swing,#C6BAA8,198,186,168
+255,warm neutral,Warm Truffle,#BAB3AC,186,179,172
+256,warm neutral,Muddy Puddle,#BEA99D,190,169,157
+257,warm neutral,Soft Truffle,#B9A99F,185,169,159
+258,warm neutral,Ancient Artefact,#B6AB9D,182,171,157
+259,warm neutral,Cookie Dough,#BEA18E,190,161,142
+260,warm neutral,Caramel Cream,#BEA488,190,164,136
+261,warm neutral,Dusted Damson,#A99898,169,152,152
+262,warm neutral,Birch Root,#9F9899,159,152,153
+263,warm neutral,Intense Truffle,#978076,151,128,118
+264,warm neutral,Spiced Honey,#A38061,163,128,97
+265,warm neutral,Cocoa Powder,#857873,133,120,115
+266,warm neutral,Rich Earth,#7F6948,127,105,72
+267,warm neutral,Rubble Road,#6C645F,108,100,95
+268,warm neutral,Burnished Brass,#7D623B,125,98,59
+269,warm neutral,Chocolate Fountain,#7A4D3A,122,77,58
+270,warm neutral,Stable Gates,#48433F,72,67,63
+271,warm neutral,Conker,#503E36,80,62,54
+272,warm neutral,Intense Chestnut,#4E3D34,78,61,52
+273,warm neutral,Roasted Coffee,#4E3D34,78,61,52
+274,warm neutral,Hazelnut Truffle,#583229,88,50,41

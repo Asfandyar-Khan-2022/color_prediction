@@ -4,8 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
-import csv
+import pandas as pd
 from PIL import ImageColor
 
 options = Options()
@@ -72,10 +71,6 @@ for i in range(len(palette)):
     color_names = driver.find_element(By.CSS_SELECTOR, "span.color-card-label.body-copy-s")
     color = 0
 
-# with open("colors.csv", "w", newline ="") as f:
-#      writer = csv.DictWriter(f, fieldnames=colors_sub_dict.keys())
-#      writer.writeheader()
-#      writer.writerow(colors_sub_dict)
 
 import pandas as pd
 
